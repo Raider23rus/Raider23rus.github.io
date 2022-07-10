@@ -19,3 +19,59 @@ font-size: 20px;
     position: absolut;
     text-align: center;
 }
+{
+   "payment_id": 526480,
+   "shop_id": 4370,
+   "customer": "Player123",
+   "email": null,
+   "ip": "127.0.0.1",
+   "server": {
+      "id": 3176,
+      "name": "Выживание",
+      "ip": "127.0.0.1",
+      "port": "25565"
+   },
+   "cost": 90,
+   "income": 85.32,
+   "payment_type": "card",
+   "created_at": "2021-09-23 13:38:36",
+   "updated_at": "2021-09-23 13:38:36",
+   "products": [
+      {
+         "id": 48986,
+         "name": "Алмазный меч",
+         "description": "Убивайте мобов эффективней!",
+         "count": 1,
+         "cost": 100,
+         "commands": [
+            "give DontFollow minecraft:diamond_sword 1"
+         ],
+         "custom_fields": [
+            {
+               "name": "email",
+               "type": "text",
+               "description": "Ваш Email",
+               "value": "admin@easydonate.ru"
+            }
+         ],
+         "image": "http://cp.easydonate.ru/storage/app/media/Diamond Sword-min.png",
+         "sales": {
+            "massSale": {
+               "value": 10,
+               "description": "Массовая акция \"Осенние скидки\"",
+               "target": {
+                  "id": 359,
+                  "name": "Алмазный меч",
+                  "sale": 10,
+                  "shop_id": 4370,
+                  "start_at": null,
+                  "expires_at": null,
+                  "created_at": "2021-09-11 11:41:13",
+                  "updated_at": "2021-09-11 11:41:13"
+               }
+            }
+         }
+      }
+   ],
+   "signature": "e994bdf64e19be4266b416fe7c13dae1410b1106a004b10e226e62df7f903260"
+}
